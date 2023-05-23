@@ -1,0 +1,81 @@
+html, body{
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.my-name{
+    color:rgb(16, 35, 75);
+    margin: 20px;
+}
+nav ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 11PX;
+    padding-right: 101px;
+    display: flex;
+    list-style: none;
+    
+}
+nav ul:hover{
+    cursor: pointer;
+}
+a{
+    color: black;
+}
+li{
+    font-family: Lato, sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+.invo{
+    text-align: center;
+}
+
+.me img{
+    display: block;
+    text-align: center;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+.space img{
+    margin-right: 35px;
+}
+.con{
+   position: absolute;
+   color: white;
+   background-color: rgb(22, 117, 241);
+   padding: 8px 15px;
+   border-radius: 20px;
+   right: 0;
+   bottom: -5px;
+}
+.con:hover{
+    cursor: pointer;
+    background-color: rgb(53, 80, 116);
+}
+.blue{
+    color: rgb(16, 35, 75);
+}
+main{
+    
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+.extra{
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+footer{
+    display: block;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(240, 205, 205, 0.767);
+    height:100px ;
+    box-sizing: border-box;
+}
